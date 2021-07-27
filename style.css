@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  background-color: grey;
+  color: #fff
+}
+
+
+/* classess */
+.main-header{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: blueviolet;
+}
+
+.main-nav{
+  list-style-type: none;
+  flex-grow: 1;
+}
+.main-nav ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.main-nav ul li{
+  padding: 5px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.logo{
+  display: inline-block;
+  background-image: url('./photos/smileKat.svg');
+  width: 100px;
+  height: 100px;
+}
